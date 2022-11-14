@@ -4,7 +4,7 @@ import { renderDogDetail } from '../render-utils.js';
 const dogDetailContainer = document.getElementById('dog-detail-container');
 
 // on load
-// eslint-disable-next-line space-before-function-paren
+
 window.addEventListener('load', async () => {
     // get the id from URL
     const params = new URLSearchParams(window.location.search);
